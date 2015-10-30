@@ -1,0 +1,62 @@
+\documentclass[twocolumn,8pt,b5book]{extarticle}
+
+\usepackage{xltxtra}
+\setmainfont[Ligatures=TeX]{IPAPMincho}
+\setsansfont{IPAPGothic}
+\setmonofont{IPAGothic}
+\XeTeXlinebreaklocale "ja"
+
+\usepackage{hyperref}
+\usepackage{listings}
+\lstset{%
+ backgroundcolor={\color[gray]{.85}},%
+ basicstyle={\small},%
+ frame={tb},
+ breaklines=true,
+ columns=[l]{fullflexible},%
+ lineskip=-0.5ex%
+}
+\usepackage{verbatim}
+\usepackage{biblatex}
+\addbibresource{ref}
+\usepackage{graphicx}
+\usepackage{ulem}
+\usepackage{myjapanese}
+
+%\usepackage{endnotes}
+%\let\footnote=\endnote
+\newcommand{\vs}{\vspace{\baselineskip}}
+
+\title{title}
+\author{NoNamea 774}
+
+%\renewcommand{\baselinestretch}{0.9}
+
+\begin{document}
+\maketitle
+
+
+
+\vs
+\hrule
+%\theendnotes
+
+\null\vfill
+\section*{奥付}
+\hrule\vskip.5mm\hrule\vskip3mm
+\begin{tabular}{ll}
+2015/12/31 & 初版発行\\
+hash: & \href{}{hoge}(の次)\\
+著作・発行 & NoNameA 774 (nonamea774@nnn77) \\
+メールアドレス & \href{mailto:nonamea774@gmail.com}{\nolinkurl{nonamea774@gmail.com}}\\
+Web & \url{https://nna774.net/}\\
+Twitter & @nonamea774\\
+GPG Key & 0x0C3E3AB2\\
+fingerprint & 674A 287A 21D2 2431 AD8F \\
+ & D328 AEF3 C3C7 0C3E 3AB2
+\end{tabular}
+\vskip3mm\hrule\vskip3mm
+
+This article is licensed unser GFDL 1.3 or any later versions. And/or CC BY-SA 4.0 International.
+You can get a machine-readable Transparent copy from \url{https://github.com/nna774/C899Book}
+\end{document}
