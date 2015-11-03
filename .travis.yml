@@ -5,6 +5,7 @@ addons:
     packages:
     - texlive-xetex 
     - texlive-bibtex-extra
+    - texlive-fonts-recommended
     - texlive-latex-recommended
     - lmodern
 script:
