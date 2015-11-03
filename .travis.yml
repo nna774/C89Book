@@ -1,0 +1,9 @@
+language: c
+sudo: false
+addons:
+  apt:
+    packages:
+    - texlive-xetex 
+    - texlive-bibtex-extra
+script:
+ - make
