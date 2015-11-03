@@ -8,5 +8,6 @@ addons:
     - texlive-fonts-recommended
     - texlive-latex-recommended
     - lmodern
+    - fonts-ipafont-mincho
 script:
  - make
