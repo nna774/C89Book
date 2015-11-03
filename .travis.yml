@@ -6,5 +6,6 @@ addons:
     - texlive-xetex 
     - texlive-bibtex-extra
     - texlive-latex-recommended
+    - lmodern
 script:
  - make
