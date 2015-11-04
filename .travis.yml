@@ -1,18 +1,18 @@
 language: c
 sudo: required
-addons:
-  apt:
-    sources:
-    - texlive-backports/ppa
-    packages:
-    - texlive-xetex 
-    - texlive-bibtex-extra
-    - texlive-generic-recommended
-    - texlive-fonts-recommended
-    - texlive-latex-recommended
-    - texlive-latex-extra
-    - lmodern
-    - fonts-ipafont
+#addons:
+#  apt:
+#    sources:
+#    - texlive-backports/ppa
+#    packages:
+#    - texlive-xetex 
+#    - texlive-bibtex-extra
+#    - texlive-generic-recommended
+#    - texlive-fonts-recommended
+#    - texlive-latex-recommended
+#    - texlive-latex-extra
+#    - lmodern
+#    - fonts-ipafont
 before_install:
     - sudo add-apt-repository ppa:texlive-backports/ppa -y
     - sudo apt-get update
