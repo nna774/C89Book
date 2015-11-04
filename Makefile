@@ -1,12 +1,14 @@
 TARGET = c99Book
 
+XELATEX = xelatex -interaction=batchmode
+
 all: pdf
 
 pdf:
-	xelatex $(TARGET)
+	$(XELATEX) $(TARGET)
 	bibtex  $(TARGET)
-	xelatex $(TARGET)
-	xelatex $(TARGET)
+	$(XELATEX) $(TARGET)
+	$(XELATEX) $(TARGET)
 
 
 .PHONY: clean
