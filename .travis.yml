@@ -2,8 +2,9 @@ language: c
 sudo: false
 addons:
   apt:
+    sources:
+    - texlive-backports/ppa
     packages:
-    - texlive-full
     - texlive-xetex 
     - texlive-bibtex-extra
     - texlive-fonts-recommended
