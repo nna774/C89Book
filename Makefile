@@ -1,6 +1,6 @@
 TARGET = c99Book
 
-XELATEX = xelatex -interaction=batchmode
+XELATEX = xelatex -interaction=nonstopmode
 
 all: pdf
 
