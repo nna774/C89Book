@@ -3,6 +3,7 @@ sudo: false
 addons:
   apt:
     packages:
+    - texlive-full
     - texlive-xetex 
     - texlive-bibtex-extra
     - texlive-fonts-recommended
