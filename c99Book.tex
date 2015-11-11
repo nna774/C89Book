@@ -17,7 +17,9 @@
  lineskip=-0.5ex%
 }
 \usepackage{verbatim}
-\usepackage{biblatex}
+%\usepackage{biblatex}
+\usepackage[style=authoryear,backend=bibtex]{biblatex}
+\nocite{*}
 \addbibresource{ref}
 \usepackage{graphicx}
 \usepackage{ulem}
@@ -27,15 +29,32 @@
 %\let\footnote=\endnote
 \newcommand{\vs}{\vspace{\baselineskip}}
 
+\begin{document}
+\cleardoublepage
+\tableofcontents
+
+\cleardoublepage
+% \mainmatter
+
 \title{title}
 \author{NoNamea 774}
 
 %\renewcommand{\baselinestretch}{0.9}
 
-\begin{document}
 \maketitle
 
+\section{まえがき}
 
+ぽええ
+
+\cleardoublepage
+
+\section{1章}
+
+あ\footnote{い}
+a\cite{wppiet}
+
+\printbibliography 
 
 \vs
 \hrule
